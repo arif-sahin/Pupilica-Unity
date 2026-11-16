@@ -11,6 +11,6 @@ Ana Unity projesi [`Bootcamp3D/`](./Bootcamp3D) klasörü altındadır. Her öde
   - `TargetSpawner` ile belirli aralıklarla rastgele hedefler üretilir; süre içinde vurulmazsa kendiliğinden yok olur.
   - Vurulan hedefler yok edilir ve skor artırılır.
 
-## Notlar
-
-- [Unity_Script_Turleri.md](./Unity_Script_Turleri.md): Unity'de `MonoBehaviour`, `ScriptableObject`, saf C# sınıfları, `Interface` ve `Abstract Class` kullanım rehberi.
+- **Ödev 2 — Karakter Yürütme & Animasyon (`Bootcamp3D/Assets/Odev2_animasyon`)**
+  - Yeni Input System (`WASD` + `Space`) ile 3D kurt karakterinin `Plane` üzerinde hareketi ve `Quaternion.Slerp` ile yönelimi sağlanır.
+  - `Animator Controller` (`IsMoving` bool & `Jump` trigger) ile `Idle`, `Run` (`Take 001`) ve manuel keyframe ile oluşturulan `WolfJump` animasyonları arasında geçiş yapılır.
